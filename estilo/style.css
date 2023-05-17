@@ -1,0 +1,247 @@
+@charset "UTF-8";
+
+/*
+#c5ebd6
+#83e1ad   
+#3ddc84   
+#2fa866   
+#1a5c37   
+#063d1e
+*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face{
+    font-family: 'Android';
+    src: url('../fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+}
+
+
+
+:root {
+   --cor0: #c5ebd6;
+   --cor01: #83e1ad;  
+   --cor02: #3ddc84; 
+   --cor03: #2fa866;
+   --cor04: #1a5c37;
+   --coe05: #063d1e;
+
+   --fonte-padrao: Arial, sans-serif, verdana, helvetica;
+   --fonte-destaque: 'Bebas Neue', 'cursive';
+   --fonte-android: 'android'
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+header{
+    background-color: var(--cor04);
+    padding-bottom: 70px;
+    background-image:linear-gradient(to bottom,#61c58c, transparent);
+}
+
+header>p{
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 0 rgb(37, 37, 37);
+}
+
+header>h1{
+    color: white;
+    font-family: var(--fonte-destaque);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-shadow: 2px 2px 0 rgb(37, 37, 37);
+    
+}
+
+nav{
+   background-color:var(--cor04);
+   font-weight: bolder;
+   padding-bottom: 10px;
+   
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 20px;
+    transition-duration: 1s;
+    
+    
+}
+
+nav a:hover{
+    background-color: #41ac6f;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    
+}
+
+main{
+    background-color: white;
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+
+main p{
+    padding: 15px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.5em;
+    
+}
+
+main img{
+    width: 100%;
+}
+main img.pequena{
+    max-width: 200px;
+    display: block;
+    margin: auto;
+}
+
+main a.dan{
+    text-decoration: none;
+    color: #1a5c37;
+    font-weight: bolder;
+}
+
+main a.dan:hover{
+    color: white;
+    background-color: #1a5c37;
+    
+}
+
+main a.irina{
+    text-decoration: none;
+    color: #1a5c37;
+    font-weight: bolder;
+}
+
+main a.irina:hover{
+    color: white;
+    background-color: #1a5c37;
+    
+}
+
+main h1{
+    text-align: center;
+    font-weight: normal;
+}
+
+main h1.maior{
+    font-size: 30px;
+}
+
+main h2{
+    background-image: linear-gradient(to right, #83e1ad, white  );
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: normal;
+
+}
+
+
+main strong{
+    color: #1a5c37;
+
+    
+}
+
+main>article>h1,h2{
+    font-family: var(--fonte-android);
+    color: #1a5c37;
+    padding: 10px;
+    text-shadow: 1px  1px 15px rgb(49, 49, 49) ;
+ }
+ main a.linkandroid{
+    text-decoration: none;
+    color:#1a5c37;
+    font-weight: bolder;
+ }
+
+ main a.linkandroid:hover{
+    background-color:#1a5c37 ;
+    color: white;
+ }
+
+ main a.inkscape{
+    text-decoration: none;
+    color:#1a5c37;
+    font-weight: bolder;
+ }
+
+ main a.inkscape:hover{
+    background-color: #1a5c37;
+    color:white ;
+ }
+
+iframe{
+    background-color: #063d1e;
+    padding: 10px 25px 10px 25px;
+    width: 90%;
+    margin: 10px;
+    height: 500px;
+    border-radius: 10px;
+    
+}
+
+body{
+    background-color: #6ec595;
+    font-family: var(--fonte-padrao);
+}
+aside{
+    background-color: #83e1ad;
+    padding: 5px;
+    border-radius: 5px;
+    list-style-position: inside;
+    box-shadow: 1px 1px 15px  rgb(88, 88, 88);
+}
+
+aside h3.tituloclaro{
+    background-color: #2fa866;
+    color: white;
+    margin: -5px -5px 0 -5px;
+    border-radius: 5px 5px 0 0 ;
+    padding: 5px;
+}
+
+aside> ul{
+    columns: 2;
+}
+
+article p.despedida{
+    padding: 10px;
+}
+
+footer{
+    background-color: var(--coe05);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    margin: 1px;
+    font-size: small;
+    text-shadow: 0px 0px 10px black;
+
+}
+footer a:visited{
+    color: white;
+    font-weight: bolder;
+}
+
+
+
+
